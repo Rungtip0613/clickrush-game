@@ -1,0 +1,38 @@
+body {
+margin: 0;
+padding: 0;
+background-color: #1a1c49; 
+font-family: 'Bangers', cursive;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+text-align: center;
+}
+
+.title {
+color: #fff;
+font-size: 60px;
+letter-spacing: 2px;
+margin-bottom: 50px;
+}
+
+.play-button {
+font-size: 40px;
+background: #6ec6ff;
+border: none;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+color: white;
+cursor: pointer;
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+transition: transform 0.2s;
+}
+
+.play-button:hover {
+transform: scale(1.1);
+}
